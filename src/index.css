@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --main-color: #150e0e;
+  /* --main-color: #362f2f; */
+}
+
+ul li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.nav-style {
+  height: 90px;
+  width: 1440px;
+  background-color:rgb(31,37,46);
+}
+
+.logo {
+  width: 78px;
+  height: 72px;
+}
+
+.search {
+  position: relative;
+}
+
+.search input {
+  height: 40px;
+  text-indent: 25px;
+  border-radius: 20px;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid black;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+}
+
+.card{
+  position: relative;
+  min-height: 375px;
+  cursor: pointer;
+  transition: all ease-in 5.5s;
+}
+
+.card-image{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card .card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: none;
+  /* transition: all ease-in 0.5s; */
+}
+
+.overley-text {
+color: white;
+top: 50%;
+transform: translateY(-50%);
+position: absolute;
+}
+.card:hover .card-overlay {
+  display: block;
+} 
+
+.alert {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  opacity: 0.3;
+}
+
+.card-details {
+  border-radius: 10px;
+  height: 50vh;
+  background-color: #ececec;
+}
+.card-details .card-text-details {
+  font-size: 32px;
+  font-weight: bold;
+  color: #777;
+}
+
+.card-story {
+  border-radius: 10px;
+    height: 30vh;
+      background-color: #ececec;
+}
+
+.card-story .card-text-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.image-movie {
+  height: 50vh;
+  border-radius: 10px;
+}
+
+.pagi-style {
+  background-color: rgb(31, 37, 46);
+}
